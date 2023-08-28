@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+</head>
+<body >
+    <nav>
+        <div class="contaner nav_container">
+            <a href="index.html" class="nav__logo">
+                <img src="img/logo.png" alt="">
+            </a>
+            <ul class="nav_menu" id="menu-bar" >
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav__buttons">
+                <button class="nav_theam-btn" id="dark">
+                    <i class="ri-moon-line"></i>
+                </button>
+                <button class="nav_toggle-open" onclick="showmenu()">
+                    <i class="ri-menu-line"></i>
+                </button>
+                <button class="nav_toggle-close">
+                    <i class="ri-menu-unfold-fill"></i>
+                </button>
+            </div>
+           
+        </div>
+    </nav>
+    <Header data-aos="fade-down">
+        <div class="container header_container">
+            <artical class="header__image" >
+                <div ><img src="img/header.jpg" alt=""></div>
+            </artical>
+            <artica class="header__content">
+                <h4>Hi,I'm <span>jade williams</span> And I'll</h4>
+                <h1>Get Your business</h1>
+                <h1>Online the right way</h1>
+             <div class="para">   <p> Are you looking for a professional developer to put your business online? you've come
+                to the</p><p>  right palce! I've helped hundreds of business owner bring their ideas to life.
+                hire me today 
+             </p></div>
+                <div class="header__cta">
+                    <a href="#contact" class="btn primary">Hire me</a>
+                    <a href="#project" class="btn ">Portfolio</a>
+                </div>
+            </artica>
+            <artica class="header__social">
+                <ul class="header__socials">
+                    <li><a href="https://twitter.com/i/flow/login" target="_blank"><i class="ri-twitter-line"></i></a></li>
+                    <li><a href="https://github.com" target="_blank"><i class="ri-github-line"></i></a></li>
+                    <li><a href="https://linkedin.com" target="_blank"><i class="ri-linkedin-fill"></i></a></li>
+                    <li><a href="https://dribble.com" target="_blank"><i class="ri-dribbble-line"></i></a></li>
+
+                </ul>
+            </artica>
+
+        </div>
+
+    </Header>
+    <section class="about" id="about">
+        <div class="container about__container">
+            <div class="about__image" data-aos="fade-right"><img src="img/about.jpg" alt="about img"></div>
+            <div class="about__details">
+                <h1>About me</h1>
+                <div class="aboud__card">
+                    <div class="inside" data-aos="fade-left">
+                        <artical class="about__cards">
+                            <i class="ri-award-line"></i>
+                            <h4>Experiance</h4>
+                            <small>8+</small>
+                        </artical>
+                        <div class="aboud__card">
+                            <artical class="about__cards">
+                                <i class="ri-hammer-line"></i>
+                                <h4>Projects</h4>
+                                <small>220+ Projects</small>
+                            </artical>
+                        </div>
+                        <div class="aboud__card">
+                            <artical class="about__cards">
+                                <i class="ri-user-3-fill"></i>
+                                <h4>Clints</h4>
+                                <small>100+ clients</small>
+                            </artical>
+                        </div>
+                    </div>
+                   
+                </div>
+                <div class="about__para">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem accusamus sapiente impedit nihil amet quibusdam error doloremque aliquid pariatur sequi porro dolores? Nesciunt!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente adipisci fugiat nihil sint eum, quasi architecto molestias. Dolorum omnis, minus architecto amet eaque dolore, reprehenderit eveniet explicabo cupiditate asperiores maxime.</p>
+                </div>
+                <div class="about__btn-holder">
+                <a href="img/resume.pdf" class="btn primary " download="" target="_blank">Download CV</a>
+                </div>
+            </div>
+        </div>
+       
+    </section>
+    <section class="service" data-aos="fade-up" id="service">
+        <div class="container service__container">
+            <div class="service__headings ">
+                <h1 id="s-h1">Services</h1>
+            </div>
+            <div class="service__data">
+            <div class="service__headings">
+                <div class="box btn  color" data-aos="fade-right" id="b1" onclick="visibleon0()">
+                    <div class="icon"><i class="ri-computer-line"></i></div>
+                    <div class="service__text">
+                    <h1>Frontend</h1>
+                    <p>14 Projects</p>
+                    </div>
+                </div>
+                <div class="box btn " id="b2" data-aos="fade-right"  onclick="visibleon()">
+                    <div class="icon"><i class="ri-server-line"></i> </div>
+                    <div class="service__text">
+                    <h1>Backend</h1>
+                    <p>15 Projects</p>
+                    </div>
+                </div>
+                <div class="box btn " id="b3" data-aos="fade-right" onclick="visibleon2()" >
+                    <div class="icon"><i class="ri-window-line"></i></div>
+                    <div class="service__text">
+                    <h1>Fullstack</h1>
+                    <p>25 Projects</p>
+                    </div>
+                </div>
+            </div>
+           <div class="service__project_box">
+                <div class="service__box-1 active_project">
+                <div class="service__data-heading">
+                    <h3>Frontend Development</h3>
+                </div>
+                <div class="service__para">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas ipsum eius reiciendis eaque dolorem, aperiam aliquam blanditiis et sequi nulla exercitationem odit porro error magni doloremque, eum doloribus, rerum soluta!</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas ipsum eius reiciendis eaque dolorem, aperiam aliquam blanditiis et sequi nulla exercitationem odit porro error magni doloremque, eum doloribus, rerum soluta!</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas ipsum eius reiciendis eaque dolorem, aperiam aliquam blanditiis et sequi nulla exercitationem odit porro error magni doloremque, eum doloribus, rerum soluta!</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas ipsum eius reiciendis eaque dolorem, aperiam aliquam blanditiis et sequi nulla exercitationem odit porro error magni doloremque, eum doloribus, rerum soluta!</p>
+                </div>                    
+                </div>
+                <div class="service__box-2">
+                    <div class="service__data-heading">
+                        <h3>Backend Development</h3>
+                    </div>
+                    <div class="service__para">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas ipsum eius reiciendis eaque dolorem, aperiam aliquam blanditiis et sequi nulla exercitationem odit porro error magni doloremque, eum doloribus, rerum soluta!</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas ipsum eius reiciendis eaque dolorem, aperiam aliquam blanditiis et sequi nulla exercitationem odit porro error magni doloremque, eum doloribus, rerum soluta!</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas ipsum eius reiciendis eaque dolorem, aperiam aliquam blanditiis et sequi nulla exercitationem odit porro error magni doloremque, eum doloribus, rerum soluta!</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas ipsum eius reiciendis eaque dolorem, aperiam aliquam blanditiis et sequi nulla exercitationem odit porro error magni doloremque, eum doloribus, rerum soluta!</p>
+                    </div> 
+                </div>
+                <div class="service__box-3">
+                    <div class="service__data-heading">
+                        <h3>Fullstack Development</h3>
+                    </div>
+                    <div class="service__para">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas ipsum eius reiciendis eaque dolorem, aperiam aliquam blanditiis et sequi nulla exercitationem odit porro error magni doloremque, eum doloribus, rerum soluta!</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas ipsum eius reiciendis eaque dolorem, aperiam aliquam blanditiis et sequi nulla exercitationem odit porro error magni doloremque, eum doloribus, rerum soluta!</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas ipsum eius reiciendis eaque dolorem, aperiam aliquam blanditiis et sequi nulla exercitationem odit porro error magni doloremque, eum doloribus, rerum soluta!</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas ipsum eius reiciendis eaque dolorem, aperiam aliquam blanditiis et sequi nulla exercitationem odit porro error magni doloremque, eum doloribus, rerum soluta!</p>
+                    </div> 
+                </div>
+           </div>
+            </div>
+        </div>
+    </section>
+    <section class="projets" id="projects">
+        <div class="container project__container">
+            <div class="project__headings ">
+                <h1 id="s-h1">Recent Project</h1>
+            </div>
+            <div class="project__card-holder" >
+                <div class="cards" id="1" data-aos="fade-right">
+                    <div class="img-cards">
+                        <img src="img/project1.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">
+                        <h2>Project one Title(Fullstack)</h2>
+                        </div>
+                        <div class="para">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p> <p>Sit, ipsa, aliquid enim ducimus quos cupiditate repellat laborum rem,</p> <p>iusto iure numquam neque.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards" id="2" data-aos="fade-up">
+                    <div class="img-cards">
+                        <img src="img/project2.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">
+                        <h2>Project one Title(Frontend)</h2>
+                        </div>
+                        <div class="para">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p> <p>Sit, ipsa, aliquid enim ducimus quos cupiditate repellat laborum rem,</p> <p>iusto iure numquam neque.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards" id="3" data-aos="fade-left">
+                    <div class="img-cards">
+                        <img src="img/project3.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">
+                        <h2>Project Three Title(backend)</h2>
+                        </div>
+                        <div class="para">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p> <p>Sit, ipsa, aliquid enim ducimus quos cupiditate repellat laborum rem,</p> <p>iusto iure numquam neque.</p>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+    <section class="testemonial" data-aos="fade-right">
+        <div class="container testemonial__container">
+            <div class="service__headings ">
+                <h1 id="s-h1">Testemonial</h1>
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide">
+                        <div class="test-card">
+                            <div class="test-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus illo, necessitatibus saepe aperiam expedita nesciunt totam!  Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto laborum vero quis magni perspiciatis iste expedita, id ad dolorem! Voluptatum, sit numquam. Sint consequuntur, soluta error corrupti libero similique totam!
+                            </div>
+                            <div class="test-content">
+                                <div class="test-logo">
+                                    <img src="img/avatar1.jpg" alt="">
+                                </div>
+                                <div class="test-logo-text">
+                                    <h5>john dumbelldore</h5>
+                                    <small>polatician</small>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="test-card">
+                            <div class="test-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus illo, necessitatibus saepe aperiam expedita nesciunt totam!  Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto laborum vero quis magni perspiciatis iste expedita, id ad dolorem! Voluptatum, sit numquam. Sint consequuntur, soluta error corrupti libero similique totam!
+                            </div>
+                            <div class="test-content">
+                                <div class="test-logo">
+                                    <img src="img/avatar1.jpg" alt="">
+                                </div>
+                                <div class="test-logo-text">
+                                    <h5>john dumbelldore</h5>
+                                    <small>polatician</small>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="test-card">
+                            <div class="test-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus illo, necessitatibus saepe aperiam expedita nesciunt totam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto laborum vero quis magni perspiciatis iste expedita, id ad dolorem! Voluptatum, sit numquam. Sint consequuntur, soluta error corrupti libero similique totam!
+                            </div>
+                            <div class="test-content">
+                                <div class="test-logo">
+                                    <img src="img/avatar1.jpg" alt="">
+                                </div>
+                                <div class="test-logo-text">
+                                    <h5>john dumbelldore</h5>
+                                    <small>polatician</small>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      ...
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                  
+                  </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact" data-aos="fade-up">
+        <div class="contact-h1">
+            <h1>Contact-Me</h1>
+        </div>
+        <div class="container contact__container">
+            <div class="contact-links" data-aos="fade-right">
+                <ul>
+                    <li><a href="mailto:amanjustin9980@gmail.com" class="contact__list-item" target="_blank">
+                        <i class="ri-mail-line"></i></a></li>
+                </ul>
+                <ul>
+                    <li><a href="mailto:amanjustin9980@gmail.com" class="contact__list-item" target="_blank">
+                        <i class="ri-messenger-line"></i></a></li>
+                </ul>
+                <ul>
+                    <li><a href="mailto:amanjustin9980@gmail.com" class="contact__list-item" target="_blank">
+                        <i class="ri-whatsapp-line"></i></a></li>
+                </ul>
+                <ul>
+                    <li><a href="mailto:amanjustin9980@gmail.com" class="contact__list-item" target="_blank">
+                        <i class="ri-dribbble-fill"></i></a></li>
+                </ul>
+            </div>
+            <form action="https://formsubmit.co/amanjustin9980@gmail.com" method="POST" data-aos="fade-left">
+                <input type="text" name="Name" placeholder="Full Name">
+                <input type="email" placeholder="email" name="email">
+                <textarea rows="7" placeholder="Message" name="Message"></textarea>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container footer__container">
+            <ul class="footer__menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+            <ul class="footer__socials">
+                <li><a href="https://twitter.com/i/flow/login" target="_blank"><i class="ri-twitter-line"></i></a></li>
+                <li><a href="https://github.com" target="_blank"><i class="ri-github-line"></i></a></li>
+                <li><a href="https://linkedin.com" target="_blank"><i class="ri-linkedin-fill"></i></a></li>
+                <li><a href="https://dribble.com" target="_blank"><i class="ri-dribbble-line"></i></a></li>
+            </ul>
+        </div>
+        <div class="copyright">
+            <small>2023  @aman justin copy&rights</small>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+      <script>
+         var darkvalue=document.getElementById("dark");
+        darkvalue.onclick=function(){
+          document.body.classList.toggle("dark-mode")
+        }
+          console.log("working");
+      </script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
